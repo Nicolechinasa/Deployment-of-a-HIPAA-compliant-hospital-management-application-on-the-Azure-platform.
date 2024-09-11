@@ -74,6 +74,7 @@ Infrastructure Setup
 3. Network Security Groups: Configured Azure NSGs for access management.
 
 4. Virtual Machines: Provisioned Azure VMs for frontend, backend, and database tiers, ensuring SSL/TLS encryption.
+<img width="955" alt="virtual machines hipaa-azure A" src="https://github.com/user-attachments/assets/f8649fe2-a77d-4a56-a115-26e27888e6ed">
 
 Database Creation and Server Configuration
 
@@ -86,6 +87,9 @@ Database Creation and Server Configuration
 
 == Peering Connection:
 * Established private VNet peering between backend VM and Azure SQL Database for low-latency communication.
+  
+<img width="934" alt="Hipaa-azure 5" src="https://github.com/user-attachments/assets/28c47797-3f49-4f4f-874b-99c1c35b0bc7">
+<img width="957" alt="hipaa-azure 9" src="https://github.com/user-attachments/assets/3bc8b1e0-c0cb-4bb1-830f-5a702ec56706">
 
 == Validation and Testing:
 * Verified the database connection using Azure Data Studio.
@@ -103,11 +107,18 @@ Backend Creation and Configuration
 
 == Setup Steps:
 * Updated VM and installed JDK 17, Maven, and SQL Client.
+  
+  <img width="704" alt="hipaa-azure 6 A" src="https://github.com/user-attachments/assets/5bbda751-20df-4f69-84a7-f0734725eec2">
+
 * Cloned backend code from GitHub and configured for deployment.
 * Applied CORS security to restrict domain access.
 
 == Application Deployment:
 * Packaged and executed the application using Maven.
+  
+<img width="960" alt="hipaa-azure A" src="https://github.com/user-attachments/assets/3b46413e-0314-4ffb-84ed-8fd60aacc81a">
+
+<img width="933" alt="706" src="https://github.com/user-attachments/assets/a90572e3-a8cb-4221-893a-10c75000b041">
 
 == Security Measures:
 * Closed unnecessary ports and restricted backend server access.
@@ -125,9 +136,16 @@ Frontend Creation and Server Configuration
 * Cloned frontend code from GitHub and configured with the latest version.
 * Ensured communication between frontend and backend servers on port 8080.
 * Verified the application functionality and secure backend connection.
+  
+<img width="943" alt="hipaa-azure 4 A" src="https://github.com/user-attachments/assets/668d808b-d0cc-436f-9cfb-f09325d43d98">
 
 == Application Testing and Deployment:
 * Conducted thorough testing to ensure functionality.
+  
+<img width="945" alt="703" src="https://github.com/user-attachments/assets/a7e1d3a8-4fb0-4467-b726-fc076fb0c59d">
+
+<img width="909" alt="701" src="https://github.com/user-attachments/assets/0b33d00f-fc34-4ada-94f8-4189bfc86fc1">
+
 
 == Security Measures:
 * Closed unnecessary ports and restricted frontend server access.
