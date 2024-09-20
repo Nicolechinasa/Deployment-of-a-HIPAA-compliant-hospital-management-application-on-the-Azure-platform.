@@ -7,7 +7,7 @@ Project Title: Hospital Management System Deployment on Azure Cloud Platform
 
 Start Date: 2nd July 2024
 
-End Date: 
+End Date: 14th September 2024
 
 Role: Cloud Security Engineer
 
@@ -66,6 +66,8 @@ Objective
 Create a secure Hospital Management System compliant with healthcare data standards.
 
 Infrastructure Setup
+
+![Hipaa-GCP-Copy of Page-1 drawio A](https://github.com/user-attachments/assets/62e5962f-1877-48a1-8a38-e1095a09d240)
 
 1. Resource Organization: Created an Azure resource group to manage related resources.
 
