@@ -11,13 +11,14 @@ End Date: 14th September 2024
 
 Role: Cloud Security Engineer
 
-GitHub Link:
 
 Description:
 
-I spearheaded the development of a cutting-edge hospital management system, leveraging a three-tier architecture to ensure compliance with healthcare data standards on the Azure Cloud Platform. We carefully crafted a scalable and secure environment, integrating Azure Virtual Machines, Azure Virtual Network, and Azure Network Security Groups to provide a robust foundation. I oversaw the design and implementation of the frontend, utilizing Node.js, React.js, and JavaScript to deliver a seamless user experience.
+A cutting-edge hospital management system, leveraging a three-tier architecture to ensure compliance with healthcare data standards on the Azure Cloud Platform. Our team carefully crafted a scalable and secure environment, integrating Azure Virtual Machines, Azure Virtual Network, and Azure Network Security Groups to establish a robust foundation.
 
-We developed a robust backend using Java, JDK 17, and Maven, and implemented a secure managed database solution using Azure SQL Database. Throughout the project, I ensured adherence to the highest security standards, utilizing Azure DevOps for CI/CD, conducting thorough code reviews, and performing regular security audits. By implementing multiple measures to protect patient data and maintain the integrity of the application, we achieved a secure and compliant hospital management solution.
+We worked together on the design and implementation of the frontend, utilizing Node.js, React.js, and JavaScript to deliver a seamless user experience. The backend was developed as a robust solution using Java, JDK 17, and Maven, while a secure managed database solution was implemented through Azure SQL Database.
+
+Throughout the project, we prioritized adherence to the highest security standards by utilizing Azure DevOps for CI/CD, conducting thorough code reviews, and performing regular security audits. By implementing multiple measures to protect patient data and maintain the integrity of the application, our collaborative efforts resulted in a secure and compliant hospital management solution."
 
 Key Features
 * User Authentication and Role Management: Implemented Azure Active Directory for secure user authentication, allowing role-based access control to ensure that sensitive data is only accessible to authorized personnel.
@@ -85,7 +86,7 @@ Database Creation and Server Configuration
 * Enforced SSL connections for secure communication.
 
 == Remote Connection Configuration:
-* Allowed connections from specific IP addresses for added security.
+* Allowed connections from specific IP addresses and backend IP for added security.
 
 == Peering Connection:
 * Established private VNet peering between backend VM and Azure SQL Database for low-latency communication.
@@ -102,7 +103,7 @@ Database Creation and Server Configuration
 
 Backend Creation and Configuration
 ==Network Security Configuration:
-* Set up NSG rules allowing TCP traffic on relevant ports (e.g., 8080 for backend communication).
+* Set up NSG rules allowing TCP traffic on relevant ports ; 8080 for backend communication, 22 for configuration access).
 
 == Server Access:
 * Used MobaXterm with private key access for secure server management.
@@ -113,7 +114,7 @@ Backend Creation and Configuration
   <img width="704" alt="hipaa-azure 6 A" src="https://github.com/user-attachments/assets/5bbda751-20df-4f69-84a7-f0734725eec2">
 
 * Cloned backend code from GitHub and configured for deployment.
-* Applied CORS security to restrict domain access.
+* Applied CORS security to restrict domain access only to the frontend domain.
 
 == Application Deployment:
 * Packaged and executed the application using Maven.
@@ -127,7 +128,8 @@ Backend Creation and Configuration
 
 Frontend Creation and Server Configuration
 == Network Security Configuration:
-* Set up NSG rules allowing TCP traffic on relevant ports (e.g., 3000 for frontend access).
+* Set up NSG rules allowing TCP traffic on relevant ports ; 3000 for frontend access, 443 for a secure internet access.
+  and 22 for configuration access.
 
 == Server Access:
 * Utilized MobaXterm with private key access for secure server management.
