@@ -92,7 +92,8 @@ Database Creation and Server Configuration
 * Established private VNet peering between backend VM and Azure SQL Database for low-latency communication.
   
 <img width="934" alt="Hipaa-azure 5" src="https://github.com/user-attachments/assets/28c47797-3f49-4f4f-874b-99c1c35b0bc7">
-<img width="957" alt="hipaa-azure 9" src="https://github.com/user-attachments/assets/3bc8b1e0-c0cb-4bb1-830f-5a702ec56706">
+
+<img width="957" alt="hipaa-azure 9" src="https://github.com/user-attachments/assets/f1462f0d-7b60-4476-a6ca-f0b35a29776c">
 
 == Validation and Testing:
 * Verified the database connection using Azure Data Studio.
@@ -121,7 +122,8 @@ Backend Creation and Configuration
   
 <img width="960" alt="hipaa-azure A" src="https://github.com/user-attachments/assets/3b46413e-0314-4ffb-84ed-8fd60aacc81a">
 
-<img width="933" alt="706" src="https://github.com/user-attachments/assets/a90572e3-a8cb-4221-893a-10c75000b041">
+<img width="959" alt="12" src="https://github.com/user-attachments/assets/8a027e36-568c-4c35-8e57-2dc545108e05">
+
 
 == Security Measures:
 * Closed unnecessary ports and restricted backend server access.
