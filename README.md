@@ -68,7 +68,7 @@ Create a secure Hospital Management System compliant with healthcare data standa
 
 Infrastructure Setup
 
-![Interactive diagram](./Assets/Hipaavscode.svg)
+![Interactive diagram](./Assets/Untitled Diagram.drawio.svg)
 
 1. Resource Organization: Created an Azure resource group to manage related resources.
 
