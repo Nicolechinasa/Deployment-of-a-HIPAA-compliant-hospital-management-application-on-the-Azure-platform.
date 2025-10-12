@@ -68,7 +68,7 @@ Create a secure Hospital Management System compliant with healthcare data standa
 
 Infrastructure Setup
 
-![Hipaa-GCP-Copy of Page-1 drawio A](https://github.com/user-attachments/assets/62e5962f-1877-48a1-8a38-e1095a09d240)
+![Interactive diagram](./Assets/Hipaavscode.svg)
 
 1. Resource Organization: Created an Azure resource group to manage related resources.
 
